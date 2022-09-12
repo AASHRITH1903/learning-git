@@ -114,7 +114,7 @@ def train(cnn, loss_func, optimizer, loaders):
     
     pass
 
-def test(cnn, loaders):
+def my_test(cnn, loaders):
     # Test the model
     cnn.eval()
     with torch.no_grad():
