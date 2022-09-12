@@ -113,7 +113,8 @@ def train(cnn, loss_func, optimizer, loaders, num_epochs):
     
     
     pass
-    PATH = './saved_models/FMNIST_model.pth'
+#     PATH = './saved_models/FMNIST_model.pth'
+    PATH = './FMNIST_model.pth'
     torch.save(cnn.state_dict(), PATH)
 
 
