@@ -80,8 +80,8 @@ def get_model():
 
     
 
-def train(cnn, loss_func, optimizer, loaders):
-    num_epochs = 10
+def train(cnn, loss_func, optimizer, loaders, num_epochs):
+    # num_epochs = 10
     cnn.train()
         
     # Train the model
